@@ -1,0 +1,40 @@
+{
+  "name": "psc-args",
+  "description": "A list of command-line options for psc (PureScript) command",
+  "keywords": [
+    "list",
+    "array",
+    "psc",
+    "purescript",
+    "command",
+    "option",
+    "options",
+    "arg",
+    "args",
+    "argument",
+    "arguments",
+    "flag",
+    "cli",
+    "command-line"
+  ],
+  "main": "browser.js",
+  "homepage": "https://github.com/shinnn/psc-args",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/psc-args.git"
+  },
+  "authors": [
+    {
+      "name": "Shinnosuke Watanabe",
+      "url": "https://github.com/shinnn"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "coverage",
+    "node_modules"
+  ]
+}
