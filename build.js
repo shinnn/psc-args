@@ -1,10 +1,10 @@
 'use strict';
 
-let execFile = require('child_process').execFile;
-let fs = require('fs');
+const execFile = require('child_process').execFile;
+const fs = require('fs');
 
-let arrayUniq = require('array-uniq');
-let psc = require('purescript').psc;
+const arrayUniq = require('array-uniq');
+const psc = require('purescript').psc;
 
 execFile(psc, ['--help'], (err, stdout) => {
   if (err) {
