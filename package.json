@@ -4,9 +4,9 @@
   "description": "A list of command-line options for psc (PureScript) command",
   "repository": "shinnn/psc-args",
   "scripts": {
-    "build": "node --harmony_arrow_functions --harmony_scoping build.js",
-    "pretest": "jscs --esnext *.js && eslint *.js && ${npm_package_scripts_build}",
-    "test": "node --harmony_arrow_functions --harmony_scoping test.js"
+    "build": "node --harmony_arrow_functions build.js",
+    "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json build.js test.js && ${npm_package_scripts_build}",
+    "test": "node --harmony_arrow_functions test.js"
   },
   "licenses": [
     {
@@ -36,19 +36,13 @@
     "client-side"
   ],
   "devDependencies": {
+    "@shinnn/eslintrc": "^1.0.0",
     "array-uniq": "^1.0.2",
-    "eslint": "^0.17.1",
-    "istanbul": "^0.3.8",
+    "eslint": "^0.20.0",
+    "istanbul": "^0.3.13",
     "istanbul-coveralls": "^1.0.2",
-    "jscs": "^1.11.3",
-    "purescript": "^1.0.0",
+    "purescript": "^0.6.10",
     "require-bower-files": "^2.0.0",
-    "tape": "^3.5.0"
-  },
-  "jscsConfig": {
-    "preset": "google",
-    "maximumLineLength": 98,
-    "requireBlocksOnNewline": true,
-    "validateLineBreaks": "LF"
+    "tape": "^4.0.0"
   }
 }
