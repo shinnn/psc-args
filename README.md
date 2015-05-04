@@ -34,21 +34,19 @@ A list of command-line options for [`psc`](https://github.com/purescript/purescr
 
 #### [npm](https://www.npmjs.com/)
 
-```sh
+```
 npm install psc-args
 ```
 
 #### [bower](http://bower.io/)
 
-```sh
+```
 bower install psc-args
 ```
 
 ### Standalone
 
-[Download the script file directly.](https://raw.githubusercontent.com/shinnn/psc-args/master/index.json)
-
-You can use it wherever you want.
+[Download the JSON file directly](https://raw.githubusercontent.com/shinnn/psc-args/master/index.json) and you can use it wherever you want.
 
 ## License
 
