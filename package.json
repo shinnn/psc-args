@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "description": "A list of command-line options for psc (PureScript) command",
   "repository": "shinnn/psc-args",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "build": "node --harmony_arrow_functions build.js",
     "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json build.js test.js && ${npm_package_scripts_build}",
     "test": "node --harmony_arrow_functions test.js"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/shinnn/psc-args/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "files": [
     "index.json"
   ],
@@ -38,10 +34,10 @@
   "devDependencies": {
     "@shinnn/eslintrc": "^1.0.0",
     "array-uniq": "^1.0.2",
-    "eslint": "^0.20.0",
-    "istanbul": "^0.3.13",
-    "istanbul-coveralls": "^1.0.2",
-    "purescript": "^0.6.10",
+    "eslint": "^0.24.0",
+    "istanbul": "^0.3.17",
+    "istanbul-coveralls": "^1.0.3",
+    "purescript": "^0.7.1",
     "require-bower-files": "^2.0.0",
     "tape": "^4.0.0"
   }
