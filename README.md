@@ -9,20 +9,15 @@ A list of command-line options for [`psc`](https://github.com/purescript/purescr
 
 ```json
 [
-  "--browser-namespace",
-  "--codegen",
   "--comments",
-  "--externs",
+  "--ffi",
   "--help",
-  "--main",
-  "--module",
   "--no-magic",
   "--no-opts",
   "--no-prefix",
-  "--no-prelude",
   "--no-tco",
   "--output",
-  "--stdin",
+  "--require-path",
   "--verbose-errors",
   "--version"
 ]
