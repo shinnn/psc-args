@@ -1,6 +1,6 @@
 {
   "name": "psc-args",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A list of command-line options for psc (PureScript) command",
   "repository": "shinnn/psc-args",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
