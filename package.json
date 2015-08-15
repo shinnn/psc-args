@@ -5,9 +5,9 @@
   "repository": "shinnn/psc-args",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
-    "build": "node --harmony_arrow_functions build.js",
-    "pretest": "eslint --config node_modules/@shinnn/eslintrc/rc.json build.js test.js && ${npm_package_scripts_build}",
-    "test": "node --harmony_arrow_functions test.js"
+    "build": "node --strong_mode --harmony_destructuring build.js",
+    "pretest": "eslint --config @shinnn/node build.js test.js && ${npm_package_scripts_build}",
+    "test": "node --strong_mode test.js"
   },
   "license": "MIT",
   "files": [
@@ -32,13 +32,13 @@
     "client-side"
   ],
   "devDependencies": {
-    "@shinnn/eslintrc": "^1.0.0",
+    "@shinnn/eslint-config-node": "^1.0.1",
     "array-uniq": "^1.0.2",
-    "eslint": "^0.24.0",
-    "istanbul": "^0.3.17",
+    "eslint": "^1.6.0",
+    "istanbul": "^0.3.22",
     "istanbul-coveralls": "^1.0.3",
-    "purescript": "^0.7.1",
-    "require-bower-files": "^2.0.0",
-    "tape": "^4.0.0"
+    "purescript": "^0.7.4",
+    "require-bower-files": "^3.0.0",
+    "tape": "^4.2.1"
   }
 }

@@ -1,7 +1,7 @@
-'use strict';
+'use strong';
 
-let requireBowerFiles = require('require-bower-files');
-let test = require('tape');
+const requireBowerFiles = require('require-bower-files');
+const test = require('tape');
 
 function runTest(description, main) {
   test(description, t => {
@@ -17,4 +17,4 @@ runTest('require(\'psc-args\')', require('./'));
 global.window = {};
 requireBowerFiles({self: true});
 
-runTest('window.pscArgs', window.pscArgs);
+runTest('window.pscArgs', global.window.pscArgs);
