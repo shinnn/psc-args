@@ -5,7 +5,7 @@
   "repository": "shinnn/psc-args",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
-    "build": "node --strong_mode --harmony_destructuring build.js",
+    "build": "node --strong_mode build.js",
     "pretest": "eslint --config @shinnn/node build.js test.js && ${npm_package_scripts_build}",
     "test": "node --strong_mode test.js"
   },
