@@ -10,14 +10,14 @@ A list of command-line options for [`psc`](https://github.com/purescript/purescr
 ```json
 [
   "--comments",
-  "--ffi",
   "--help",
+  "--json-errors",
   "--no-magic",
   "--no-opts",
   "--no-prefix",
   "--no-tco",
   "--output",
-  "--require-path",
+  "--source-maps",
   "--verbose-errors",
   "--version"
 ]
@@ -33,7 +33,7 @@ A list of command-line options for [`psc`](https://github.com/purescript/purescr
 npm install psc-args
 ```
 
-#### [bower](http://bower.io/)
+#### [bower](https://bower.io/)
 
 ```
 bower install psc-args

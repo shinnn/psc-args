@@ -1,13 +1,13 @@
 window.pscArgs = [
   '--comments',
-  '--ffi',
   '--help',
+  '--json-errors',
   '--no-magic',
   '--no-opts',
   '--no-prefix',
   '--no-tco',
   '--output',
-  '--require-path',
+  '--source-maps',
   '--verbose-errors',
   '--version'
 ];
