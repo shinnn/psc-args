@@ -1,12 +1,12 @@
 {
   "name": "psc-args",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A list of command-line options for psc (PureScript) command",
   "repository": "shinnn/psc-args",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "build": "node --strong_mode build.js",
-    "pretest": "eslint --config @shinnn/node build.js test.js && ${npm_package_scripts_build}",
+    "pretest": "eslint --fix --config @shinnn/node build.js test.js && ${npm_package_scripts_build}",
     "test": "node --strong_mode test.js"
   },
   "license": "MIT",
